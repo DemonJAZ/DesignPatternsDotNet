@@ -2,13 +2,15 @@
 
 public class Transmission
 {
-    public string protocal {get; set;}
+    public string protocal { get; set; }
 
-    public Transmission(string protocal){
+    public Transmission(string protocal)
+    {
         this.protocal = protocal;
     }
 
-    public void sendTramission(){
-        System.Console.WriteLine("Tramission initiated via "+ protocal);
+    public void sendTransmission()
+    {
+        System.Console.WriteLine("Tramission initiated via " + protocal);
     }
 }

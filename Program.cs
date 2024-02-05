@@ -24,4 +24,8 @@ dns.sendRequest("1.2.4.5", 3);
 arp.sendRequest("4.3.4.5", 6);
 #endregion
 
+#region Facade Pattern
+NetworkFacade networkFacade = new NetworkFacade("1.2.3.4","SMTP");
+networkFacade.sendTransmission();
+#endregion
 
